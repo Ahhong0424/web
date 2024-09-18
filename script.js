@@ -1,3 +1,4 @@
+// FAQ Accordion Toggle
 document.querySelectorAll('.faq-question').forEach(button => {
     button.addEventListener('click', () => {
         // Get the current state of 'aria-expanded'
@@ -16,8 +17,18 @@ document.querySelectorAll('.faq-question').forEach(button => {
     });
 });
 
-
+// Dropdown Menu Toggle
 function toggleDropdown() {
-    const dropdown = document.getElementById("dropdown");
-    dropdown.classList.toggle("show-dropdown");
+    const dropdown = document.getElementById('dropdown');
+    dropdown.classList.toggle('active');  // Toggle the 'active' class
 }
+
+// Close dropdown if clicked outside
+window.addEventListener('click', function(event) {
+    const dropdown = document.getElementById('dropdown');
+    // Check if the click was outside the dropdown and profile icon
+    if (!event.target.closest('.user-profile') && dropdown.classList.contains('active')) {
+        dropdown.classList.remove('active');
+    }
+});
+

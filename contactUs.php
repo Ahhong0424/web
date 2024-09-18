@@ -12,8 +12,10 @@
     <link rel="stylesheet" href="stylesheets/contact.css">
 </head>
 <body>
-    <header class="hero bg-warning text-center py-5">
-        <h1>Contact</h1>
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Contact</h1>
+        </div>
     </header>
 
     <!-- Contact Section -->
@@ -70,9 +72,5 @@
     </section>
 
     <?php include 'components/footer.php'; ?>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
