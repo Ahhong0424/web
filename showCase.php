@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - Creative Carnival</title>
+    <title>Showcase - Creative Carnival</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="stylesheets/style.css">
@@ -13,9 +13,7 @@
 <body>
     <!-- Showcase header -->
     <header class="hero">
-        <div class="hero-content">
-            <h1>Showcase</h1>
-        </div>
+        <img src="images/header_showcase.png" alt="Hero Image" class="hero-image">
     </header>
 
     <!-- Filters and Sorting Row -->

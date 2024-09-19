@@ -13,9 +13,7 @@
 </head>
 <body>
     <header class="hero">
-        <div class="hero-content">
-            <h1>Contact</h1>
-        </div>
+        <img src="images/header_contact.png" alt="Hero Image" class="hero-image">
     </header>
 
     <!-- Contact Section -->

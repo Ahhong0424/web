@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - Creative Carnival</title>
+    <title>Homepage - Creative Carnival</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="stylesheets/style.css">
@@ -14,32 +14,176 @@
 
     <!-- Hero section with Bootstrap grid -->
     <header class="hero">
-        <div class="container text-center">
-            <div class="hero-content py-5">
-                <h1 class="display-4">Become a part of the future</h1>
-                <p class="lead">Empowering creators to express their ideas.</p>
-            </div>
-        </div>
+        <img src="images/header_index.png" alt="Hero Image" class="hero-image">
     </header>
 
-    <!-- Showcase section -->
-    <section class="showcase py-5">
-        <div class="container text-center">
-            <h2 class="mb-4">Upcoming Showcase</h2>
-            <div class="showcase-content">
-                <h3>Acidic Palette</h3>
-                <p>Join us for a night of creativity and colors.</p>
-                <button class="btn btn-primary">Learn More</button> <!-- Bootstrap button -->
+    <!-- Image Grid Section with Fixed Size and Hover Effect -->
+    <section class="image-grid-section py-5">
+        <div class="container">
+            <div class="row">
+                <!-- First Row -->
+                <div class="col-md-4 mb-4">
+                    <div class="image-item">
+                        <a href="projectDetail.php?id=1" class="image-link">
+                            <img src="images/homepage_showcases/H_Artizaro.png" class="fixed-size-img img-fluid" alt="Image 1">
+                            <div class="hover-overlay">
+                                <button class="view-details-btn">View Details</button>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="image-item">
+                        <a href="projectDetail.php?id=2" class="image-link">
+                            <img src="images/homepage_showcases/H_HoyhnkAnimation.png" class="fixed-size-img img-fluid" alt="Image 1">
+                            <div class="hover-overlay">
+                                <button class="view-details-btn">View Details</button>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="image-item">
+                        <a href="projectDetail.php?id=3" class="image-link">
+                            <img src="images/homepage_showcases/H_InkGiant.png" class="fixed-size-img img-fluid" alt="Image 1">
+                            <div class="hover-overlay">
+                                <button class="view-details-btn">View Details</button>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Second Row -->
+                <div class="col-md-4 mb-4">
+                    <div class="image-item">
+                        <a href="projectDetail.php?id=4" class="image-link">
+                            <img src="images/homepage_showcases/H_JarsBranding.png" class="fixed-size-img img-fluid" alt="Image 1">
+                            <div class="hover-overlay">
+                                <button class="view-details-btn">View Details</button>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="image-item">
+                        <a href="projectDetail.php?id=5" class="image-link">
+                            <img src="images/homepage_showcases/H_Joker.png" class="fixed-size-img img-fluid" alt="Image 1">
+                            <div class="hover-overlay">
+                                <button class="view-details-btn">View Details</button>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="image-item">
+                        <a href="projectDetail.php?id=6" class="image-link">
+                            <img src="images/homepage_showcases/H_Maguite.png" class="fixed-size-img img-fluid" alt="Image 1">
+                            <div class="hover-overlay">
+                                <button class="view-details-btn">View Details</button>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Third Row -->
+                <div class="col-md-4 mb-4">
+                    <div class="image-item">
+                        <a href="projectDetail.php?id=7" class="image-link">
+                            <img src="images/homepage_showcases/H_PicktBranding.png" class="fixed-size-img img-fluid" alt="Image 1">
+                            <div class="hover-overlay">
+                                <button class="view-details-btn">View Details</button>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="image-item">
+                        <a href="projectDetail.php?id=8" class="image-link">
+                            <img src="images/homepage_showcases/H_Preferenz.png" class="fixed-size-img img-fluid" alt="Image 1">
+                            <div class="hover-overlay">
+                                <button class="view-details-btn">View Details</button>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="image-item">
+                        <a href="projectDetail.php?id=9" class="image-link">
+                            <img src="images/homepage_showcases/H_TurboTrax.png" class="fixed-size-img img-fluid" alt="Image 1">
+                            <div class="hover-overlay">
+                                <button class="view-details-btn">View Details</button>
+                            </div>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Call to Action section -->
-    <section class="call-to-action py-5 bg-light text-center">
-        <div class="container">
-            <h2 class="mb-4">Unleash Your Creativity!</h2>
-            <p>Submit your project for our upcoming events.</p>
-            <button class="btn btn-success">Get Started</button> <!-- Bootstrap button -->
+    <!-- Showcase section -->
+    <section class="showcase py-5">
+        <div class="container text-center">
+            <h2 class="mb-4">Upcoming <span>Showcase</span></h2>
+        </div>
+        <div class="light-grey-box">
+            <div class="container text-center">
+                <!-- Bootstrap Carousel Start -->
+                <div id="showcaseCarousel" class="carousel slide" data-ride="carousel">
+                    
+                    <!-- Carousel Indicators (Optional) -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#showcaseCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#showcaseCarousel" data-slide-to="1"></li>
+                        <li data-target="#showcaseCarousel" data-slide-to="2"></li>
+                    </ol>
+
+                    <!-- Carousel Inner -->
+                    <div class="carousel-inner">
+                        <!-- Slide 1 -->
+                        <div class="carousel-item active">
+                            <img src="images/homepage_upcoming_showcases/AcidicPalette.png" class="d-block w-100" alt="Showcase Image 1">
+                            <div class="showcase-content mt-4">
+                                <h3>Acidic Palette</h3>
+                                <p>03 OCT 2024 - 05 OCT 2024</p>
+                                <p>Join us for a night of creativity and colors.</p>
+                                <button class="btn btn-primary">Learn More</button>
+                            </div>
+                        </div>
+                        <!-- Slide 2 -->
+                        <div class="carousel-item">
+                            <img src="images/homepage_upcoming_showcases/ArtWorkshop.png" class="d-block w-100" alt="Showcase Image 2">
+                            <div class="showcase-content mt-4">
+                                <h3>Acidic Palette</h3>
+                                <p>03 OCT 2024 - 05 OCT 2024</p>
+                                <p>Join us for a night of creativity and colors.</p>
+                                <button class="btn btn-primary">Learn More</button>
+                            </div>
+                        </div>
+                        <!-- Slide 3 -->
+                        <div class="carousel-item">
+                            <img src="images/homepage_upcoming_showcases/Leap.png" class="d-block w-100" alt="Showcase Image 3">
+                            <div class="showcase-content mt-4">
+                                <h3>Acidic Palette</h3>
+                                <p>03 OCT 2024 - 05 OCT 2024</p>
+                                <p>Join us for a night of creativity and colors.</p>
+                                <button class="btn btn-primary">Learn More</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Carousel Controls (Left and Right Arrows) -->
+                    <a class="carousel-control-prev" href="#showcaseCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#showcaseCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
         </div>
     </section>
 

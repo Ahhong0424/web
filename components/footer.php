@@ -1,16 +1,26 @@
+<!-- Call to Action section -->
+<section class="call-to-action py-5 text-center bg-image">
+    <div class="container">
+        <h2 class="mb-4">Unleash Your Creativity!</h2>
+        <p>Upload your projects to showcase your creativity, inspire others, and</p>
+        <p>connect with a creative community</p>
+        <button class="btn btn-success" onclick="window.location.href='projectUpload.php'">Upload Now</button>
+    </div>
+</section>
+
 <footer class="footer">
     <div class="footer-container">
         <!-- Part 1: Logo, Description, Social Icons, and Copyright -->
         <div class="footer-part">
-            <img src="logo.png" alt="Creative Carnival Logo" class="footer-logo">
+            <img src="images/logo_footer.png" alt="Creative Carnival Logo" class="footer-logo">
             <p>
                 Creative Carnival is an online showcase celebrating multimedia students' final year projects. The platform combines creativity and technology, featuring diverse projects in animation, web design, video production, and more.
             </p>
             <div class="social-icons">
-                <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
-                <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
-                <a href="#"><img src="linkedin-icon.png" alt="LinkedIn"></a>
-                <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
             </div>
             <p>&copy; 2024 Creative Carnival. All rights reserved.</p>
         </div>
@@ -20,7 +30,7 @@
             <h4>Pages</h4>
             <ul class="footer-links">
                 <li><a href="index.php">Home</a></li>
-                <li><a href="#">Showcase</a></li>
+                <li><a href="showCase.php">Showcase</a></li>
                 <li><a href="aboutUs.php">About</a></li>
                 <li><a href="contactUs.php">Contact</a></li>
             </ul>
