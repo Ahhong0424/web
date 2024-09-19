@@ -324,7 +324,9 @@ footer {
 }
 
 .footer-logo {
-    max-width: 150px;
+    height: 80px; 
+    width: auto; 
+    margin-right: 15px; 
 }
 
 .footer-links {
