@@ -12,34 +12,57 @@
 </head>
 <body>
 
-    <!-- Hero section with Bootstrap grid -->
-    <header class="hero">
-        <div class="container text-center">
-            <div class="hero-content py-5">
-                <h1 class="display-4">Become a part of the future</h1>
-                <p class="lead">Empowering creators to express their ideas.</p>
-            </div>
-        </div>
-    </header>
-
-    <!-- Showcase section -->
-    <section class="showcase py-5">
-        <div class="container text-center">
-            <h2 class="mb-4">Upcoming Showcase</h2>
-            <div class="showcase-content">
-                <h3>Acidic Palette</h3>
-                <p>Join us for a night of creativity and colors.</p>
-                <button class="btn btn-primary">Learn More</button> <!-- Bootstrap button -->
-            </div>
-        </div>
+<section>
+        <img src="images/Branding/project/BProject_1.jpg" alt="Project Image" class="project-image">
     </section>
 
-    <!-- Call to Action section -->
-    <section class="call-to-action py-5 bg-light text-center">
-        <div class="container">
-            <h2 class="mb-4">Unleash Your Creativity!</h2>
-            <p>Submit your project for our upcoming events.</p>
-            <button class="btn btn-success">Get Started</button> <!-- Bootstrap button -->
+    <!-- Project Information Section with Black Background -->
+    <div class="project-details-section">
+        <div class="project-info">
+            <!-- Yellow Heart Button -->
+            <div class="heart-container">
+                <button class="yellow-heart-btn">
+                    <i class="fas fa-heart"></i>
+                </button>
+            </div>
+
+            <!-- Project Title and Stats -->
+            <div class="project-stats text-center">
+                <h2 class="project-title">Digital Typography Process Book</h2>
+                <p>
+                    <i class="fas fa-heart"></i> 50
+                    <i class="fas fa-eye ml-3"></i> 50
+                    <i class="fas fa-comment ml-3"></i> 50
+                </p>
+                <p class="publish-date">Published on 21 September 2024</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Comment Section -->
+    <section class="container">
+        <div class="comment-section">
+            <!-- Comment Box for the User -->
+            <div class="comment-box">
+                <img src="images/Branding/profile/BProfile1.jpg" alt="User Profile" class="profile-pic">
+                <div class="comment-input-wrapper">
+                    <textarea rows="3" placeholder="What are your thoughts on this project?"></textarea>
+                    <button class="post-btn">Post A Comment</button>
+                </div>
+            </div>
+
+            <hr class="divider">
+
+            <!-- Displayed Comments -->
+            <div class="comment">
+                <img src="images/Branding/profile/BProfile2.jpg" alt="User Profile" class="profile-pic">
+                <div class="comment-content">
+                    <p class="comment-header">Maude Hall <span class="comment-time">14 min ago</span></p>
+                    <p>That's a fantastic new app feature. You and your team did an excellent job of incorporating user testing feedback.</p>
+                </div>
+            </div>
+
         </div>
     </section>
 

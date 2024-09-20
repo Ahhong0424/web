@@ -21,12 +21,12 @@
         <div class="container">
             <div class="row justify-content-between">
                 <!-- All Categories -->
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <h5>All Categories (24)</h5>
                 </div>
 
                 <!-- Dropdown Sorting by Latest/Oldest -->
-                <div class="col-md-2">
+                <div class="col-md-3">
                     <select class="form-select">
                         <option value="latest">Latest</option>
                         <option value="oldest">Oldest</option>
@@ -34,7 +34,7 @@
                 </div>
 
                 <!-- Dropdown for Categories -->
-                <div class="col-md-2">
+                <div class="col-md-3">
                     <select class="form-select">
                         <option value="all">All</option>
                         <option value="illustration">Illustration</option>
@@ -56,25 +56,27 @@
             <div class="row">
                 <?php for($i = 0; $i < 24; $i++): ?>
                     <div class="col-md-4 mb-4">
-                        <div class="card">
-                            <img src="path_to_showcase_image.jpg" class="card-img-top" alt="Showcase Image">
+                        <div class="card image-item">
+                            <img src="images/Animation-3D_Modeling/project/AProject_1.png" class="card-img-top fixed-size-img" alt="Showcase Image">
+                            <div class="hover-overlay">
+                                <a href="projectDetail.php" class="view-details-btn">View Details</a>
+                            </div>
                             <div class="card-body text-center">
-                                <h5 class="card-title">Showcase Title</h5>
                                 <p class="card-text">
-                                    <img src="path_to_author_profile.jpg" alt="Author" class="rounded-circle" style="width: 30px; height: 30px;">
-                                    <span class="ml-2">Author Name</span>
-                                </p>
-                                <p>
+                                    <img src="images/Animation-3D_Modeling/profile/AProfile1.jpg" alt="Author" class="rounded-circle" style="width: 30px; height: 30px;">
+                                    <span class="ml-2" style=" margin-right: 10px;">Showcase Title</span>
                                     <i class="fas fa-heart"></i> 256 
                                     <i class="fas fa-eye ml-3"></i> 1.2k
                                 </p>
                             </div>
                         </div>
+
                     </div>
                 <?php endfor; ?>
             </div>
         </div>
     </section>
+
     
     <?php include 'components/footer.php'; ?>
 </body>
