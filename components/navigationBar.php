@@ -20,11 +20,11 @@
                 <li class="nav-item"><a class="nav-link" href="contactUs.php">Contact</a></li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="profileDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <img src="images/user_icon.jpg" alt="Profile" class="profile-icon">
+                        <img src="images/profile/User_ProfilePicture.jpg" alt="Profile" class="profile-icon">
                     </a>
                     <div class="dropdown-menu" aria-labelledby="profileDropdown">
                         <div class="dropdown-header d-flex align-items-center">
-                            <img src="images/user_icon.jpg" alt="Profile" class="dropdown-avatar">
+                            <img src="images/profile/User_ProfilePicture.jpg" alt="Profile" class="dropdown-avatar">
                             <div class="ml-3">
                                 <span class="dropdown-name">Chloe Grace <span class="verified">✔️</span></span>
                                 <span class="dropdown-email">chloegrace@gmail.com</span>

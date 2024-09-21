@@ -1,0 +1,51 @@
+.form-wrapper {
+    background-color: #f8f9fa;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.divider {
+    border-left: 2px solid #ced4da;
+    height: 100%;
+}
+
+.upload-section {
+    height: 300px;
+    border: 2px dashed #ced4da;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+    color: lightgrey;
+}
+.upload-section:hover {
+    background-color: #e9ecef;
+}
+.upload-icon {
+    font-size: 50px;
+    margin-bottom: 100px;
+}
+
+.upload-section {
+    height: 300px;
+    border: 2px dashed #ced4da;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+    color: lightgrey;
+    position: relative;
+}
+.upload-section:hover {
+    background-color: #e9ecef;
+}
+.upload-icon {
+    font-size: 50px;
+}
+.file-upload-text {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    pointer-events: none;
+}

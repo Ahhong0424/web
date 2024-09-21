@@ -88,12 +88,12 @@
 }
 
 .about-small-images img {
-    width: 48%; /* Ensure the images occupy 2 equal columns */
+    width: 48%; 
     border-radius: 10px;
 }
 
 .about-image {
-    height: 80vh; /* Ensures image matches the height of the wrapper */
+    height: 80vh;
     width: auto;
     object-fit: cover;
     border-radius: 40px;

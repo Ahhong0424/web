@@ -128,7 +128,7 @@
                 <div class="col-md-8">
                     <div class="d-flex justify-content-between mb-4">
                         <h4 style="font-weight: bold;">Projects</h4>
-                        <button class="btn btn-custom">
+                        <button class="btn btn-custom" onclick="window.location.href='projectUpload.php'">
                             <i class="fas fa-upload"></i>
                             Upload Project
                         </button>
