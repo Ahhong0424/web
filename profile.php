@@ -30,6 +30,41 @@
             border-radius: 50%; /* Ensures the image is circular */
         }
 
+        .card {
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.card-title {
+    margin: auto;
+}
+
+.card:hover .card-body {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.card-body {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 100%;
+    transform: translateY(100%);
+    transition: all 0.3s ease;
+    opacity: 0;
+    padding: 15px;
+    text-align: center;
+}
+
+.view-details {
+    display: block;
+    margin-top: 10px;
+    color: #FED101 ;
+}
+
+
         .btn-custom {
             background-color: #28a745; /* Bootstrap green */
             color: white; /* Text color */
@@ -99,26 +134,37 @@
                         </button>
                     </div>
                     <div class="row">
-                        <!-- Loop these project cards -->
-                        <div class="col-md-4 mb-4">
-                            <div class="card">
-                                <img src="images/Animation-3D_Modeling/project/AProject_1.png" class="card-img-top" alt="Project 1">
-                                <p style="margin: auto 10px; ">Showcase Title</p>
-                            </div>
-                        </div>
-                        <div class="col-md-4 mb-4">
-                            <div class="card">
-                                <img src="images/Animation-3D_Modeling/project/AProject_2.png" class="card-img-top" alt="Project 1">
-                                <p style="margin: auto 10px; ">Showcase Title</p>
-                            </div>
-                        </div>
-                        <div class="col-md-4 mb-4">
-                            <div class="card">
-                                <img src="images/Animation-3D_Modeling/project/AProject_3.png" class="card-img-top" alt="Project 1">
-                                <p style="margin: auto 10px; ">Showcase Title</p>
-                            </div>
-                        </div>
-                    </div>
+    <!-- Loop these project cards -->
+    <div class="col-md-4 mb-4">
+        <div class="card">
+            <img src="images/Animation-3D_Modeling/project/AProject_1.png" class="card-img-top" alt="Project 1">
+            <p class="card-title">Showcase Title</p>
+            <div class="card-body">
+                <a href="projectDetail.php" class="btn btn-primary view-details">View Details</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 mb-4">
+        <div class="card">
+            <img src="images/Animation-3D_Modeling/project/AProject_2.png" class="card-img-top" alt="Project 2">
+            <p class="card-title">Showcase Title</p>
+            <div class="card-body">
+                <a href="projectDetail.php" class="btn btn-primary view-details">View Details</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 mb-4">
+        <div class="card">
+            <img src="images/Animation-3D_Modeling/project/AProject_3.png" class="card-img-top" alt="Project 3">
+            <p class="card-title">Showcase Title</p>
+            <div class="card-body">
+                <a href="projectDetail.php" class="btn btn-primary view-details">View Details</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
                 </div>
             </div>
         </div>

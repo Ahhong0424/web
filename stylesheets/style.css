@@ -648,6 +648,7 @@ button {
     display: flex;
     flex-direction: column;
     position: relative;
+    margin-left: 15px; /* Optional: space between profile pic and input */
 }
 
 .comment-input-wrapper textarea {
@@ -665,6 +666,8 @@ button {
     border-radius: 5px;
     color: #000;
     font-weight: bold;
+    align-self: flex-end; /* Align the button to the right */
+    margin-top: 10px; /* Space above the button */
 }
 
 .comment {
