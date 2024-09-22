@@ -149,8 +149,6 @@
             </div>
         </div>
     </section>
-
-    <script src="script.js"></script>
     
     <?php include 'components/footer.php'; ?>
 </body>

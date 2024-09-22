@@ -42,3 +42,6 @@
         </div>
     </div>
 </nav>
+
+
+<script src="javascripts/navigationBar.js"></script> 

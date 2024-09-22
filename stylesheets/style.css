@@ -39,7 +39,12 @@ a {
 }
 
 .navbar-nav .nav-item .nav-link:hover {
-    color: #FF9800;
+    color: #FED101;
+}
+
+.navbar-nav .nav-link.active {
+    color: #FED101 !important; 
+    font-weight: bold;
 }
 
 /* Profile icon styling */
