@@ -67,37 +67,35 @@
                         </button>
                     </div>
                     <div class="row">
-    <!-- Loop these project cards -->
-    <div class="col-md-4 mb-4">
-        <div class="card">
-            <img src="images/Animation-3D_Modeling/project/AProject_1.png" class="card-img-top" alt="Project 1">
-            <p class="card-title">Showcase Title</p>
-            <div class="card-body">
-                <a href="projectDetail.php" class="btn btn-primary view-details">View Details</a>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-4 mb-4">
-        <div class="card">
-            <img src="images/Animation-3D_Modeling/project/AProject_2.png" class="card-img-top" alt="Project 2">
-            <p class="card-title">Showcase Title</p>
-            <div class="card-body">
-                <a href="projectDetail.php" class="btn btn-primary view-details">View Details</a>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-4 mb-4">
-        <div class="card">
-            <img src="images/Animation-3D_Modeling/project/AProject_3.png" class="card-img-top" alt="Project 3">
-            <p class="card-title">Showcase Title</p>
-            <div class="card-body">
-                <a href="projectDetail.php" class="btn btn-primary view-details">View Details</a>
-            </div>
-        </div>
-    </div>
-</div>
-
-
+                        <!-- Loop these project cards -->
+                        <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <img src="images/Animation-3D_Modeling/project/AProject_1.png" class="card-img-top" alt="Project 1">
+                                <p class="card-title">Showcase Title</p>
+                                <div class="card-body">
+                                    <a href="projectDetail.php" class="btn btn-primary view-details">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <img src="images/Animation-3D_Modeling/project/AProject_2.png" class="card-img-top" alt="Project 2">
+                                <p class="card-title">Showcase Title</p>
+                                <div class="card-body">
+                                    <a href="projectDetail.php" class="btn btn-primary view-details">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <img src="images/Animation-3D_Modeling/project/AProject_3.png" class="card-img-top" alt="Project 3">
+                                <p class="card-title">Showcase Title</p>
+                                <div class="card-body">
+                                    <a href="projectDetail.php" class="btn btn-primary view-details">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

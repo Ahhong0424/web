@@ -28,7 +28,6 @@
                 <!-- BASIC INFORMATION -->
                 <div id="basic-info" class="form-section">
                     <div class="row">
-                        <!-- Left Column: Profile Image -->
                         <div class="col-md-4">
                             <div class="profile-image-container">
                                 <img src="images/profile/User_ProfilePicture.jpg" alt="Profile Image" class="profile-image">
@@ -39,7 +38,6 @@
                             </div>
                         </div>
 
-                        <!-- Right Column: Form Fields -->
                         <div class="col-md-8">
                             <div class="row mb-3">
                                 <div class="col-md-6">
@@ -122,7 +120,6 @@
                     </div>
                 </div>
 
-                <!-- Button Section: Discard Changes and Save Changes -->
                 <div class="button-container">
                     <button type="button" class="btn btn-custom-discard">Discard Changes</button>
                     <button type="submit" class="btn btn-custom-save">Save Changes</button>
@@ -131,7 +128,6 @@
         </div>
     </div>
 
-    <!-- Include footer -->
     <?php include 'components/footer.php'; ?>
 
 </body>

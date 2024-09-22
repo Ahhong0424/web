@@ -12,16 +12,13 @@
 </head>
 <body>
 
-    <!-- Hero section with Bootstrap grid -->
     <header class="hero">
         <img src="images/header_index.png" alt="Hero Image" class="hero-image">
     </header>
 
-    <!-- Image Grid Section with Fixed Size and Hover Effect -->
     <section class="image-grid-section py-5">
         <div class="container">
             <div class="row">
-                <!-- First Row -->
                 <div class="col-md-4 mb-4">
                     <div class="image-item">
                         <a href="projectDetail.php?id=1" class="image-link">
@@ -54,7 +51,6 @@
                 </div>
             </div>
             <div class="row">
-                <!-- Second Row -->
                 <div class="col-md-4 mb-4">
                     <div class="image-item">
                         <a href="projectDetail.php?id=4" class="image-link">
@@ -87,7 +83,6 @@
                 </div>
             </div>
             <div class="row">
-                <!-- Third Row -->
                 <div class="col-md-4 mb-4">
                     <div class="image-item">
                         <a href="projectDetail.php?id=7" class="image-link">
@@ -129,10 +124,8 @@
         </div>
         <div class="light-grey-box">
             <div class="container text-center">
-                <!-- Bootstrap Carousel Start -->
                 <div id="showcaseCarousel" class="carousel slide" data-ride="carousel">
                     
-                    <!-- Carousel Indicators (Optional) -->
                     <ol class="carousel-indicators">
                         <li data-target="#showcaseCarousel" data-slide-to="0" class="active"></li>
                         <li data-target="#showcaseCarousel" data-slide-to="1"></li>
@@ -141,7 +134,6 @@
                         <li data-target="#showcaseCarousel" data-slide-to="4"></li>
                     </ol>
 
-                    <!-- Carousel Inner -->
                     <div class="carousel-inner">
                         <!-- Slide 1 -->
                         <div class="carousel-item active">
@@ -175,7 +167,6 @@
                         </div>
                     </div>
 
-                    <!-- Carousel Controls (Left and Right Arrows) -->
                     <a class="carousel-control-prev" href="#showcaseCarousel" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
@@ -189,7 +180,6 @@
         </div>
     </section>
 
-    <!-- Include footer -->
     <?php include 'components/footer.php'; ?>
 
 </body>

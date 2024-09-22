@@ -19,7 +19,6 @@
     <!-- Contact Section -->
     <section class="container py-5">
         <div class="row">
-            <!-- Left Column -->
             <div class="col-md-6">
             <img src="images/Poster.png" alt="Creative Carnival" class="img-fluid rounded mb-4" style="width: 100%; height: auto; display: block; margin: 0 auto;">
 
@@ -35,9 +34,8 @@
                 </div>
             </div>
 
-            <!-- Right Column: Contact Form -->
             <div class="col-md-6">
-                <div class="contact-form-wrapper"> <!-- New wrapper div -->
+                <div class="contact-form-wrapper"> 
                     <h2 style="font-size: 30px; font-weight: bold;">Let's Talk</h2>
                     <form action="submit_contact_form.php" method="POST" class="contact-form">
                         <div class="form-group">
@@ -63,7 +61,6 @@
         </div>
     </section>
 
-    <!-- Map Section -->
     <section class="container py-5">
         <div class="embed-responsive embed-responsive-16by9">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.5378121733747!2d101.72398217589166!3d3.2152551967599337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc3843bfb6a031%3A0x2dc5e067aae3ab84!2sTunku%20Abdul%20Rahman%20University%20of%20Management%20and%20Technology%20(TAR%20UMT)!5e0!3m2!1sen!2smy!4v1726850690292!5m2!1sen!2smy" 

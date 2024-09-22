@@ -48,23 +48,18 @@
     <!-- Part 2: Who We Are  -->
     <section class="about-section">
         <div class="container">
-            <!-- Main Wrapper -->
             <div class="row align-items-center w-100">
-                <!-- Text and Small Images Wrapper -->
                 <div class="col-md-9 d-flex flex-column justify-content-between about-wrapper">
-                    <!-- Text Column -->
                     <div class="text-column p-4">
                         <h2>Who We Are</h2>
                         <p>Creative Carnival is a platform for inspiration and discovery. Whether you're an employer seeking fresh talent, a creative looking for new ideas, or someone who loves innovative work, Creative Carnival provides a diverse collection of multimedia projects. We celebrate the creativity of multimedia students by showcasing their final year projects and sharing their unique perspectives with a global audience.</p>
                     </div>
-                    <!-- Small Images Row (Inside the Yellow Box) -->
                     <div class="about-small-images d-flex justify-content-between mt-3">
                         <img src="images/about_us/Visitor.png" alt="Small Image 1">
                         <img src="images/about_us/arrow_2.png" alt="Small Image 2">
                     </div>
                 </div>
 
-                <!-- Image Column (Portrait Image) -->
                 <div class="col-md-3">
                     <img src="images/about_us/Decoration.png" alt="Creative Carnival" class="about-image">
                 </div>

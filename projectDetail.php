@@ -16,7 +16,7 @@
         <img src="images/Branding/project/BProject_1.jpg" alt="Project Image" class="project-image">
     </section>
 
-    <!-- Project Information Section with Black Background -->
+    <!-- Project Information Section -->
     <div class="project-details-section">
         <div class="project-info">
             <!-- Yellow Heart Button -->
@@ -26,7 +26,6 @@
                 </button>
             </div>
 
-            <!-- Project Title and Stats -->
             <div class="project-stats text-center">
                 <h2 class="project-title">Digital Typography Process Book</h2>
                 <p>
@@ -43,7 +42,6 @@
     <!-- Comment Section -->
     <section class="container">
         <div class="comment-section">
-            <!-- Comment Box for the User -->
             <div class="comment-box">
                 <img src="images/Branding/profile/BProfile1.jpg" alt="User Profile" class="profile-pic">
                 <div class="comment-input-wrapper">
@@ -54,7 +52,6 @@
 
             <hr class="divider">
 
-            <!-- Displayed Comments -->
             <div class="comment">
                 <img src="images/Branding/profile/BProfile2.jpg" alt="User Profile" class="profile-pic">
                 <div class="comment-content">
@@ -66,7 +63,6 @@
         </div>
     </section>
 
-    <!-- Include footer -->
     <?php include 'components/footer.php'; ?>
 
 </body>

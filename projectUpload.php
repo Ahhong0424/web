@@ -122,8 +122,6 @@
         </div>
     </div>
 
-
-    <!-- Include footer -->
     <?php include 'components/footer.php'; ?>
 
 </body>
