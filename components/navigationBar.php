@@ -32,7 +32,7 @@
                         </div>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="profile.php">View Profile</a>
-                        <a class="dropdown-item" href="#">Support</a>
+                        <a class="dropdown-item" href="adminDashboard.php">Support</a>
                         <a class="dropdown-item" href="#">Settings</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#">Sign Out</a>
