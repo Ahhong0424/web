@@ -7,74 +7,7 @@
     <title>Profile</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="stylesheets/style.css">
-    <style>
-        .profile-header {
-            background-image: url('images/profile/User_BG_Cover.png') !important;
-            background-size: cover !important;
-            background-position: center !important;
-            border-radius: 15px !important;
-            padding: 30px !important;
-            margin-bottom: 30px !important;
-            margin-left: 100px !important;
-            margin-right: 100px !important;
-            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1) !important;
-            color: #000 !important;
-        }
-        
-        .col-md-3 .rounded-circle {
-            border: 10px solid #fff; /* White border around profile image */
-            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for the profile image */
-            width: 150px; /* Adjust as needed */
-            height: 150px; /* Adjust as needed */
-            object-fit: cover; /* Ensures the image fits within the circle */
-            border-radius: 50%; /* Ensures the image is circular */
-        }
-
-        .card {
-    position: relative;
-    overflow: hidden;
-    transition: all 0.3s ease;
-}
-
-.card-title {
-    margin: auto;
-}
-
-.card:hover .card-body {
-    opacity: 1;
-    transform: translateY(0);
-}
-
-.card-body {
-    position: absolute;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-    color: white;
-    width: 100%;
-    transform: translateY(100%);
-    transition: all 0.3s ease;
-    opacity: 0;
-    padding: 15px;
-    text-align: center;
-}
-
-.view-details {
-    display: block;
-    margin-top: 10px;
-    color: #FED101 ;
-}
-
-
-        .btn-custom {
-            background-color: #28a745; /* Bootstrap green */
-            color: white; /* Text color */
-            border: none; /* Remove border */
-        }
-
-        .btn-custom i {
-            margin-right: 8px; /* Space between icon and text */
-        }
-    </style>
+    <link rel="stylesheet" href="stylesheets/profile.css">
 </head>
 <body>
     <!-- Profile Header -->
