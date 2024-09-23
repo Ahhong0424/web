@@ -21,13 +21,16 @@
     <!-- Main Content Section -->
     <div class="flex-grow-1 main-content" style="padding: 20px; margin-left: 250px;">
         <div class="d-flex justify-content-between align-items-center p-3">
+            <!-- Back Button and Edit Profile in the same row -->
+            <div class="d-flex align-items-center">
+                <h2 style="font-weight: bold; margin: 0;">Dashboard</h2>
+            </div>
+
             <!-- Profile Icon -->
             <?php include('components/adminProfileIcon.php'); ?>
         </div>
 
         <div class="container-fluid" style="margin-left: 30px; margin-right: 30px;">
-            <!-- Dashboard Title -->
-            <h2 class="mt-5" style="font-weight:bold">Dashboard</h2>
 
             <!-- Profile Section -->
             <div class="card mt-3" style="background-image: url('images/admin/Admin_BG_Cover.png'); padding: 150px 20px 20px 20px;">
@@ -40,9 +43,11 @@
                         <p>Website Administrator | Full Access | IT Department</p>
                     </div>
                     <div class="col-md-4 d-flex justify-content-end align-items-end">
-                        <button class="btn btn-outline-light" style="border: 2px solid #fff;">
-                            <i class="fas fa-edit"></i> Edit Profile
-                        </button>
+                        <a href="adminEditProfile.php">
+                            <button class="btn btn-outline-light" style="border: 2px solid #fff;">
+                                <i class="fas fa-edit"></i> Edit Profile
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>
