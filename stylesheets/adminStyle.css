@@ -6,16 +6,23 @@ body {
 
 .navbar-nav .nav-item {
     position: relative;
-    margin-left: 10px;
-    margin-right: 80px;
     padding-bottom: 20px;
+    width: 100%;
 }
 
 .navbar-nav .nav-link {
+    display: flex;                /* Align the icon and text horizontally */
+    margin-right: 20px;           /* Add some margin to the right side */
+    white-space: nowrap;
     color: white; /* Default text color */
     font-size: 16px;
     padding: 10px;
     position: relative; /* Necessary for the highlight bar */
+}
+
+.navbar-nav .nav-link i {
+    margin-right: 10px;           /* Add space between the icon and the text */
+    font-size: 1.2em;             /* Adjust the icon size if needed */
 }
 
 /* Yellow highlight bar for the active state */
@@ -64,6 +71,23 @@ body {
 
 .flex-grow-1 {
     overflow-x: auto;
+}
+
+/* Wrap the main content within the screen size with margin */
+.main-content {
+    max-width: 100vw;        /* Ensure content doesn’t overflow horizontally */
+    max-height: 100vh;       /* Ensure content fits within the screen height */
+    margin: 20px;            /* Margin around the content for better spacing */
+    overflow: auto;          /* Enable scrolling if content overflows */
+    box-sizing: border-box;  /* Include padding and border in the width and height */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .main-content {
+        margin-left: 0;       /* Remove left margin on smaller screens */
+        padding: 10px;        /* Adjust padding for small screens */
+    }
 }
   
 /* Card Styling */

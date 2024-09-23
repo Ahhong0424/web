@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="stylesheets/adminStyle.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -18,7 +19,7 @@
     </div>
 
     <!-- Main Content Section -->
-    <div class="flex-grow-1" style="padding: 20px;">
+    <div class="flex-grow-1 main-content" style="padding: 20px; margin-left: 250px;">
         <div class="d-flex justify-content-between align-items-center p-3">
             <!-- Profile Icon -->
             <?php include('components/adminProfileIcon.php'); ?>
@@ -29,10 +30,10 @@
             <h2 class="mt-5" style="font-weight:bold">Dashboard</h2>
 
             <!-- Profile Section -->
-            <div class="card p-3 mt-3" style="background-image: url('images/admin/Admin_BG_Cover.png'); padding-top: 150px;">
+            <div class="card mt-3" style="background-image: url('images/admin/Admin_BG_Cover.png'); padding: 150px 20px 20px 20px;">
                 <div class="row align-items-center">
                     <div class="col-md-3 d-flex justify-content-center">
-                        <img src="images/admin/Admin_ProfilePicture.jpg" class="rounded-circle" width="120" height="120" alt="Profile Picture">
+                        <img src="images/admin/Admin_ProfilePicture.jpg" class="rounded-circle" width="240" height="240" alt="Profile Picture">
                     </div>
                     <div class="col-md-5 d-flex flex-column" style="padding-left: 20px;">
                         <h1>Albert Wu <i class="fas fa-check-circle" style="color: #8E77F8;"></i></h1>
@@ -75,7 +76,30 @@
             </div>
 
             <div class="p-4 mb-4" style="background-color: white; border-radius: 15px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
-                <h2 class="mt-5" style="font-weight: bold;">Project Details</h2>
+                <div class="d-flex justify-content-between align-items-center">
+                    <h2 class="mt-5" style="font-weight: bold;">Project Details</h2>
+                    
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="monthDropdown" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: white; color: black; opacity: 0.8;">
+                            Select Month
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="monthDropdown" style="background-color: grey; color: black; opacity: 0.8;">
+                            <li><a class="dropdown-item" href="#">January</a></li>
+                            <li><a class="dropdown-item" href="#">February</a></li>
+                            <li><a class="dropdown-item" href="#">March</a></li>
+                            <li><a class="dropdown-item" href="#">April</a></li>
+                            <li><a class="dropdown-item" href="#">May</a></li>
+                            <li><a class="dropdown-item" href="#">June</a></li>
+                            <li><a class="dropdown-item" href="#">July</a></li>
+                            <li><a class="dropdown-item" href="#">August</a></li>
+                            <li><a class="dropdown-item" href="#">September</a></li>
+                            <li><a class="dropdown-item" href="#">October</a></li>
+                            <li><a class="dropdown-item" href="#">November</a></li>
+                            <li><a class="dropdown-item" href="#">December</a></li>
+                        </ul>
+                    </div>
+                </div>
+
                 <table class="table mt-4" style="border-radius: 15px; overflow: hidden;">
                     <thead class="bg-light">
                         <tr>
@@ -118,7 +142,7 @@
         </div>
     </div>
 </div>
-
+<script src="javascripts/adminDashboard.js"></script>
 <!-- Include footer -->
 <?php include 'components/adminFooter.php'; ?>
 
