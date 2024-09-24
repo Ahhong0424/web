@@ -55,15 +55,14 @@ a {
     object-fit: cover;
 }
 
-/* Dropdown menu overrides */
 .dropdown-menu {
-    border-radius: 20px; /* Rounded corners */
+    border-radius: 20px; 
     padding: 10px;
-    min-width: 220px; /* Prevent the dropdown from being too small */
-    max-width: 280px; /* Set a max width for the content */
-    left: 0 !important; /* Align dropdown to the left */
-    right: auto !important; /* Ensure right alignment is removed */
-    overflow: hidden; /* Prevent overflow issues */
+    min-width: 220px; 
+    max-width: 280px; 
+    left: 0 !important; 
+    right: auto !important; 
+    overflow: hidden;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -92,9 +91,9 @@ a {
     font-size: 14px;
     color: #777;
     margin-top: 5px;
-    white-space: nowrap; /* Prevent stretching */
+    white-space: nowrap; 
     overflow: hidden;
-    text-overflow: ellipsis; /* Show '...' for overflowed text */
+    text-overflow: ellipsis;
 }
 
 .verified {
@@ -116,30 +115,29 @@ a {
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 50vh; /* Full viewport height */
-    overflow: hidden; /* Ensure no scrollbars appear */
-    background-color: #FFF; /* Optional: background color for better visibility if needed */
+    height: 50vh; 
+    overflow: hidden; 
+    background-color: #FFF; 
 }
 
 .hero-image {
     max-width: 100%;
     max-height: 100%;
-    object-fit: contain; /* Ensure the image scales while maintaining its aspect ratio */
+    object-fit: contain; 
 }
 
 .hero-content {
     position: relative;
-    z-index: 1; /* Ensure content is on top of the image */
-    padding: 2rem; /* Adjust padding as needed */
+    z-index: 1; 
+    padding: 2rem;
 }
 
-/* Optional: Adjust font sizes on smaller screens */
 @media (max-width: 768px) {
     .hero-content h1 {
-        font-size: 2.5rem; /* Adjust as needed */
+        font-size: 2.5rem;
     }
     .hero-content p {
-        font-size: 1.25rem; /* Adjust as needed */
+        font-size: 1.25rem; 
     }
 }
 
@@ -154,29 +152,25 @@ a {
     color: #555;
 }
 
-/* Ensure the image container is positioned relatively */
 .image-item {
     position: relative;
     overflow: hidden;
     object-fit: contain; 
 }
 
-/* Fixed size for each image */
 .fixed-size-img {
     width: 100%;
-    height: 250px; /* Adjust height as needed */
+    height: 250px; 
     object-fit: cover;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     border-radius: 8px;
 }
 
-/* Hover effect on image (zoom in) */
 .fixed-size-img:hover {
     transform: scale(1.05);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Overlay for the hover effect */
 .hover-overlay {
     position: absolute;
     top: 0;
@@ -186,17 +180,15 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    background-color: rgba(0, 0, 0, 0.5);
     opacity: 0;
     transition: opacity 0.3s ease;
 }
 
-/* Show the overlay and button when hovering */
 .image-item:hover .hover-overlay {
     opacity: 1;
 }
 
-/* Style for the View Details button */
 .view-details-btn {
     background-color: #fff;
     color: #000;
@@ -209,29 +201,29 @@ a {
 }
 
 .view-details-btn:hover {
-    background-color: #007bff; /* Change to blue on hover */
+    background-color: #007bff; 
     color: #fff;
 }
 
 .carousel-item img {
     border-radius: 5px;
     width: 100%;
-    height: 400px; /* Set a fixed height for all slides */
-    object-fit: contain; /* Ensure images cover the container and maintain aspect ratio */
+    height: 400px; 
+    object-fit: contain; 
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for arrows */
-    border-radius: 50%; /* Circular icons */
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%; 
 }
 
 .light-grey-box {
-    background-color: #f0f0f0; /* Light grey background */
-    padding: 30px; /* Padding around the content */
-    border-radius: 15px; /* Rounded corners */
-    margin: 30px auto; /* Center the box with some margin */
-    max-width: 1200px; /* Optional: Max width to constrain the box */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: Slight shadow for effect */
+    background-color: #f0f0f0;
+    padding: 30px; 
+    border-radius: 15px; 
+    margin: 30px auto;
+    max-width: 1200px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 h2.mb-4 {
@@ -284,33 +276,33 @@ h2.mb-4 span {
 }
 
 .bg-image {
-    background-image: url('../images/UnleshYourCreativity.png'); /* Path to your background image */
-    background-size: cover; /* Ensures the image covers the section without distortion */
-    background-position: center center; /* Centers the background image */
-    background-repeat: no-repeat; /* Prevents background image from repeating */
-    padding: 50px 0; /* Adjust padding for spacing */
-    color: white; /* Text color to contrast with the background */
+    background-image: url('../images/UnleshYourCreativity.png'); 
+    background-size: cover;
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    padding: 50px 0; 
+    color: white;
     
-    border-radius: 15px; /* Rounded corners */
-    margin: 20px auto; /* Center the container */
-    max-width: 1200px; /* Adjust the max width of the section */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+    border-radius: 15px;
+    margin: 20px auto;
+    max-width: 1200px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
 }
 
 
 .call-to-action {
-    position: relative; /* To allow z-index to work */
-    z-index: 2; /* Bring this section above the footer */
-    margin-bottom: -50px; /* Adjust as necessary to create overlap */
-    background-color: #f7f7f7; /* Optional: Style the background */
+    position: relative;
+    z-index: 2;
+    margin-bottom: -50px; 
+    background-color: #f7f7f7; 
 }
 
 footer {
     position: relative;
-    z-index: 1; /* Ensure the footer stays behind the call-to-action */
-    background-color: #282828; /* Dark footer background */
-    color: #fff; /* Text color for better visibility */
-    padding-top: 100px; /* Create space between the content and call-to-action */
+    z-index: 1;
+    background-color: #282828; 
+    color: #fff; 
+    padding-top: 100px; 
 }
 
 .footer-container {
@@ -368,7 +360,6 @@ footer {
     color: #ddd;
 }
 
-/* Responsive styling for smaller screens */
 @media (max-width: 768px) {
     .footer-part {
         width: 100%;
@@ -466,25 +457,24 @@ h2 {
 
 /* Profile Body */
 .profile-body {
-    margin-bottom: 50px; /* Additional margin at the bottom for spacing */
+    margin-bottom: 50px; 
 }
 
-/* Customize the About section icons */
 .profile-body .card ul li img {
-    width: 20px; /* Adjust the icon size */
-    margin-right: 10px; /* Spacing between the icon and text */
+    width: 20px; 
+    margin-right: 10px;
 }
 
 .profile-body .card-about {
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Card shadow */
-    border-radius: 10px; /* Rounded corners for cards */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px; 
 }
 
 .profile-body .card {
     height: 170px;
     width: 225px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Card shadow */
-    border-radius: 10px; /* Rounded corners for cards */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px;
 }
 
 .list-unstyled li {
@@ -498,19 +488,19 @@ button {
 
 
 .btn-primary {
-    background-color: transparent; /* Transparent background */
-    color: rgb(54, 54, 54); /* White text */
-    border: 2px solid white; /* White border */
-    border-radius: 15px; /* Rounded rectangle */
-    padding: 10px 20px; /* Padding for button size */
-    font-size: 1rem; /* Adjust the font size */
-    transition: background-color 0.3s, color 0.3s; /* Smooth hover transition */
+    background-color: transparent;
+    color: rgb(54, 54, 54); 
+    border: 2px solid white; 
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-size: 1rem; 
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .btn-primary:hover {
-    background-color: white; /* Change background on hover */
-    color: #333; /* Darker text color on hover */
-    border-color: white; /* Keep the border white */
+    background-color: white; 
+    color: #333; 
+    border-color: white;
 }
 
 .btn-secondary {
@@ -520,54 +510,51 @@ button {
 
 /* Showcase */
 .card {
-    position: relative; /* Needed for overlay positioning */
-    overflow: hidden; /* Prevent overflow of the overlay */
+    position: relative; 
+    overflow: hidden; 
 }
 
 .fixed-size-img {
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
 
 .fixed-size-img:hover {
-    transform: scale(1.05); /* Slightly enlarge the image */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    transform: scale(1.05); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Show the overlay and button when hovering */
 .image-item:hover .hover-overlay {
-    opacity: 1; /* Show overlay on hover */
+    opacity: 1; 
 }
 
-/* Style for the hover overlay */
 .hover-overlay {
-    position: absolute; /* Overlay positioning */
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    display: flex; /* Center content */
+    display: flex; 
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
-    opacity: 0; /* Initially hidden */
-    transition: opacity 0.3s ease; /* Smooth transition for showing overlay */
+    background-color: rgba(0, 0, 0, 0.7); 
+    opacity: 0; 
+    transition: opacity 0.3s ease;
 }
 
-/* Style for the View Details button */
 .view-details-btn {
-    background-color: #fff; /* White background */
-    color: #000; /* Black text */
-    border: none; /* No border */
-    padding: 10px 20px; /* Padding */
-    border-radius: 5px; /* Rounded corners */
-    font-size: 16px; /* Font size */
-    cursor: pointer; /* Pointer cursor */
-    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effect */
+    background-color: #fff; 
+    color: #000; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    font-size: 16px;
+    cursor: pointer; 
+    transition: background-color 0.3s ease, color 0.3s ease; 
 }
 
 .view-details-btn:hover {
-    background-color: #007bff; /* Change to blue on hover */
-    color: #fff; /* White text on hover */
+    background-color: #007bff;
+    color: #fff; 
 }
 
 /* Project Detail*/
@@ -578,7 +565,7 @@ button {
 }
 
 .project-info {
-    background-color: #282828; /* Black background */
+    background-color: #282828;
     color: #fff;
     position: relative;
     padding: 20px;
@@ -587,7 +574,7 @@ button {
 
 .heart-container {
     position: absolute;
-    top: -30px; /* Move the heart upwards */
+    top: -30px;
     left: 50%;
     transform: translateX(-50%);
     background-color: #282828;
@@ -596,7 +583,7 @@ button {
 }
 
 .yellow-heart-btn {
-    background-color: #FED101; /* Yellow background */
+    background-color: #FED101; 
     border: none;
     border-radius: 50%;
     width: 60px;
@@ -611,7 +598,7 @@ button {
 .project-title {
     font-size: 24px;
     color: #fff;
-    margin-top: 40px; /* Space below the heart */
+    margin-top: 40px; 
 }
 
 .project-stats {
@@ -620,12 +607,12 @@ button {
 }
 
 .project-stats i {
-    color: #ccc; /* Grey color for icons */
+    color: #ccc; 
 }
 
 .publish-date {
     margin-top: 20px;
-    color: #ccc; /* Lighter color for date */
+    color: #ccc;
 }
 
 .comment-section {
@@ -654,7 +641,7 @@ button {
     display: flex;
     flex-direction: column;
     position: relative;
-    margin-left: 15px; /* Optional: space between profile pic and input */
+    margin-left: 15px; 
 }
 
 .comment-input-wrapper textarea {
@@ -672,8 +659,8 @@ button {
     border-radius: 5px;
     color: #000;
     font-weight: bold;
-    align-self: flex-end; /* Align the button to the right */
-    margin-top: 10px; /* Space above the button */
+    align-self: flex-end; 
+    margin-top: 10px; 
 }
 
 .comment {

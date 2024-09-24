@@ -35,7 +35,7 @@
 }
 
 .btn-custom-save:hover {
-    background-color: #FFC700; /* Slightly darker hover effect */
+    background-color: #FFC700;
 }
 
 .btn-custom-discard {
@@ -50,5 +50,5 @@
 }
 
 .btn-custom-discard:hover {
-    background-color: #cfcfcf; /* Slightly darker hover effect */
+    background-color: #cfcfcf; 
 }

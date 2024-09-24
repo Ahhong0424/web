@@ -123,7 +123,9 @@
                             <td>Animation</td>
                             <td><a href="images/Animation-3D_Modeling/project/AProject_1.png" target="_blank">View File</a></td>
                             <td>30.09.2024 - 08:50 PM</td>
-                            <td><span class="badge badge-success">Approved</span></td>
+                            <td>
+                                <span class="btn-status status-approved">Approved</span>
+                            </td>
                         </tr>
                         <tr>
                             <td><img src="images/admin/Admin_ProfilePicture.jpg" class="rounded-circle" width="40" height="40" alt="Profile"> Krystal Liu</td>
@@ -131,7 +133,10 @@
                             <td>Motion Graphic</td>
                             <td><a href="images/Animation-3D_Modeling/project/AProject_1.png" target="_blank">View File</a></td>
                             <td>28.09.2024 - 11:30 AM</td>
-                            <td><span class="badge badge-warning">Pending</span></td>
+                            <td>
+                                <span class="btn-status status-pending">Pending</span>
+                            </td>
+
                         </tr>
                         <tr>
                             <td><img src="images/admin/Admin_ProfilePicture.jpg" class="rounded-circle" width="40" height="40" alt="Profile"> Wong Zhi Jun</td>
@@ -139,7 +144,9 @@
                             <td>UI/UX</td>
                             <td><a href="images/Animation-3D_Modeling/project/AProject_1.png" target="_blank">View File</a></td>
                             <td>27.09.2024 - 04:45 PM</td>
-                            <td><span class="badge badge-danger">Rejected</span></td>
+                            <td>
+                                <span class="btn-status status-rejected">Rejected</span>
+                            </td>
                         </tr>
                     </tbody>
                 </table>

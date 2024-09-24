@@ -1,36 +1,33 @@
 .contact-form-wrapper {
-    border-radius: 15px; /* Adjust the radius as needed */
-    background-color: #fff; /* Optional: Set a background color */
-    padding: 20px; /* Optional: Add padding for spacing */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow for depth */
+    border-radius: 15px; 
+    background-color: #fff; 
+    padding: 20px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Styling for form */
 .contact-form {
     padding: 20px;
     border: 1px solid #ddd;
-    border-radius: 15px; /* Rounded rectangle border */
-    background-color: #f9f9f9; /* Light background for form */
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Optional shadow for effect */
+    border-radius: 15px; 
+    background-color: #f9f9f9; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
 }
 
-/* Make the input fields rounded */
 .form-input {
-    border-radius: 10px; /* Rounded input fields */
+    border-radius: 10px;
     padding: 10px;
-    border: 1px solid #ccc; /* Soft border for inputs */
+    border: 1px solid #ccc; 
     transition: border-color 0.3s ease;
 }
 
-/* Change the border color on focus */
 .form-input:focus {
-    border-color: #333; /* Darker border on focus */
+    border-color: #333; 
     outline: none;
 }
 
-/* Bold form labels */
 .form-label {
-    font-weight: bold; /* Make labels bold */
+    font-weight: bold; 
     margin-bottom: 5px;
     display: block;
 }
@@ -40,9 +37,8 @@
     font-weight: bold;
 }
 
-/* Button styling */
 .btn-dark {
     padding: 10px 30px;
-    border-radius: 25px; /* Make the button rounded */
+    border-radius: 25px;
     font-weight: bold;
 }
