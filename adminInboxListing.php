@@ -23,7 +23,7 @@
         <div class="flex-grow-1 main-content" style="padding: 20px; margin-left: 250px;">
             <div class="d-flex justify-content-between align-items-center p-3">
                 <div class="d-flex align-items-center">
-                    <h2 style="font-weight: bold; margin: 0;">Project Management</h2>
+                    <h2 style="font-weight: bold; margin: 0;">Inbox List</h2>
                 </div>
                 <!-- Profile Icon -->
                 <?php include('components/adminProfileIcon.php'); ?>
@@ -34,11 +34,11 @@
                 <table class="table table-striped table-hover">
                     <thead>
                         <tr>
-                            <th>Creator Name</th>
-                            <th>Project Title</th>
-                            <th>Category</th>
-                            <th>Media Attach</th>
+                            <th>Sender Name</th>
+                            <th>Email</th>
+                            <th>Question</th>
                             <th>Date - Time</th>
+                            <th>Actions</th>
                             <th>Status</th>
                         </tr>
                     </thead>
@@ -46,47 +46,28 @@
                         <!-- Sample Row 1 -->
                         <tr>
                             <td><img src="images/profiles/james-chen.jpg" class="rounded-circle me-2" style="width: 40px; height: 40px;"> James Chen</td>
-                            <td>Neon Dreams</td>
-                            <td>Animation</td>
-                            <td><a href="images/Animation-3D_Modeling/project/AProject_1.png" target="_blank">[link to file]</a></td>
-                            <td>30.09.2024 08:50 PM</td>
+                            <td>andrewwillis@gmail.com</td>
+                            <td>I'm Andrew Willis, I'm quite interested in this upcoming event. When does the showcase start? How can I register?</td>
+                            <td>25.08.2024, 11:24 AM</td>
+                            <td><a href="adminInboxDetail.php?inbox=1" target="_blank">View Inbox</a></td>
                             <td>
                                 <div class="dropdown status-dropdown">
                                     <button class="btn status-pending dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         Pending
                                     </button>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item status-approved" href="updateProjectStatus.php?status=Approved&project=1">Approved</a></li>
-                                        <li><a class="dropdown-item status-kiv" href="updateProjectStatus.php?status=KIV&project=1">KIV</a></li>
-                                        <li><a class="dropdown-item status-rejected" href="updateProjectStatus.php?status=Rejected&project=1">Rejected</a></li>
+                                        <li><a class="dropdown-item status-approved" href="updateInboxStatus.php?status=Approved&inbox=1">Replied</a></li>
+                                        <li><a class="dropdown-item status-kiv" href="updateInboxStatus.php?status=KIV&inbox=1">KIV</a></li>
+                                        <li><a class="dropdown-item status-rejected" href="updateInboxStatus.php?status=Rejected&inbox=1">Rejected</a></li>
                                     </ul>
                                 </div>
                             </td>
                         </tr>
-                        <!-- Sample Row 2 -->
-                        <tr>
-                            <td><img src="images/profiles/krystal-liu.jpg" class="rounded-circle me-2" style="width: 40px; height: 40px;"> Krystal Liu</td>
-                            <td>Break Free</td>
-                            <td>Motion Graphic</td>
-                            <td><a href="images/MotionGraphic/project/Motion_2.png" target="_blank">[link to file]</a></td>
-                            <td>28.09.2024 11:30 AM</td>
-                            <td>
-                                <div class="dropdown status-dropdown">
-                                    <button class="btn status-pending dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Pending
-                                    </button>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item status-approved" href="updateProjectStatus.php?status=Approved&project=2">Approved</a></li>
-                                        <li><a class="dropdown-item status-kiv" href="updateProjectStatus.php?status=KIV&project=2">KIV</a></li>
-                                        <li><a class="dropdown-item status-rejected" href="updateProjectStatus.php?status=Rejected&project=2">Rejected</a></li>
-                                    </ul>
-                                </div>
-                            </td>
-                        </tr>
-                        <!-- Add more sample rows as necessary -->
+                        
                     </tbody>
                 </table>
             </div>
+
         </div>
     </div>
 

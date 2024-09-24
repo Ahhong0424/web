@@ -14,7 +14,7 @@
             </a>
         </li>
         <li class="nav-item mb-3">
-            <a class="nav-link text-white" href="adminInbox.php">
+            <a class="nav-link text-white" href="adminInboxListing.php">
                 <i class="fas fa-inbox"></i> Inbox
             </a>
         </li>

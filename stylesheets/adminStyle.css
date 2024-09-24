@@ -2,6 +2,9 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-image: url('../images/bg.png');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
 }
 
 .navbar-nav .nav-item {
@@ -11,13 +14,13 @@ body {
 }
 
 .navbar-nav .nav-link {
-    display: flex;                /* Align the icon and text horizontally */
-    margin-right: 20px;           /* Add some margin to the right side */
+    display: flex;               
+    margin-right: 20px;          
     white-space: nowrap;
-    color: white; /* Default text color */
+    color: white;
     font-size: 16px;
     padding: 10px;
-    position: relative; /* Necessary for the highlight bar */
+    position: relative; 
 }
 
 .navbar-nav .nav-link i {

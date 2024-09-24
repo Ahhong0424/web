@@ -1,0 +1,37 @@
+.status-dropdown .dropdown-menu {
+    min-width: 100px;
+}
+
+.status-dropdown button {
+    margin: auto;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.status-approved {
+    background-color: #00B69B;
+    color: white;
+    border-radius: 20px;
+}
+
+.status-pending {
+    background-color: #FED101;
+    color: white;
+    border-radius: 20px;
+}
+
+.status-rejected {
+    background-color: #FD5454;
+    color: white;
+    border-radius: 20px;
+}
+
+.status-kiv {
+    background-color: #FED101;
+    color: white;
+    border-radius: 20px;
+}
+
+.table th {
+    cursor: pointer;
+}
