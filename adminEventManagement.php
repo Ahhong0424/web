@@ -55,7 +55,11 @@
                             <td>9.00AM - 5.00PM</td>
                             <td>TARUMT</td>
                             <td>bla bla bla</td>
-                            <td><img src="images/homepage_upcoming_showcases/AcidicPalette.png" class="img-thumbnail" style="width: 60px;"></td>
+                            <td>
+                                <a href="images/homepage_upcoming_showcases/AcidicPalette.png" target="_blank">
+                                    <img src="images/homepage_upcoming_showcases/AcidicPalette.png" class="img-thumbnail" style="width: 60px;">
+                                </a>
+                            </td>
                             <td>
                                 <div class="dropdown">
                                     <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">

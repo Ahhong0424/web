@@ -49,7 +49,7 @@ body {
   }
   
   .dropdown-menu {
-    background-color: #333; /* Customize dropdown menu background color */
+    background-color: none; /* Customize dropdown menu background color */
   }
   
   .dropdown-item {

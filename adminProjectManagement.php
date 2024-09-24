@@ -48,7 +48,11 @@
                             <td><img src="images/profiles/james-chen.jpg" class="rounded-circle me-2" style="width: 40px; height: 40px;"> James Chen</td>
                             <td>Neon Dreams</td>
                             <td>Animation</td>
-                            <td><a href="images/Animation-3D_Modeling/project/AProject_1.png" target="_blank">[link to file]</a></td>
+                            <td>
+                                <a href="images/homepage_upcoming_showcases/AcidicPalette.png" target="_blank">
+                                    <img src="images/homepage_upcoming_showcases/AcidicPalette.png" class="img-thumbnail" style="width: 60px;">
+                                </a>
+                            </td>
                             <td>30.09.2024 08:50 PM</td>
                             <td>
                                 <div class="dropdown status-dropdown">
@@ -68,7 +72,11 @@
                             <td><img src="images/profiles/krystal-liu.jpg" class="rounded-circle me-2" style="width: 40px; height: 40px;"> Krystal Liu</td>
                             <td>Break Free</td>
                             <td>Motion Graphic</td>
-                            <td><a href="images/MotionGraphic/project/Motion_2.png" target="_blank">[link to file]</a></td>
+                            <td>
+                                <a href="images/homepage_upcoming_showcases/AcidicPalette.png" target="_blank">
+                                    <img src="images/homepage_upcoming_showcases/AcidicPalette.png" class="img-thumbnail" style="width: 60px;">
+                                </a>
+                            </td>
                             <td>28.09.2024 11:30 AM</td>
                             <td>
                                 <div class="dropdown status-dropdown">

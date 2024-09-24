@@ -28,8 +28,15 @@
                         <div class="col-md-4">
                             <h6>Media</h6>
                             <label for="coverImage" class="form-label">Cover Image</label>
-                            <img src="images/homepage_upcoming_showcases/AcidicPalette.png" class="img-fluid mb-2" alt="Event Image">
-                            <input type="file" class="form-control" id="coverImage" name="coverImage">
+                            <div class="media-preview mb-3" id="imagePreview" ondragover="event.preventDefault();" ondrop="handleDrop(event)">
+                                <img src="images/homepage_upcoming_showcases/AcidicPalette.png" class="img-fluid mb-2" id="previewImg" alt="Event Image">
+                                <p id="placeholderText">Upload a file or drag and drop</p>
+                                <div class="upload-icon" onclick="document.getElementById('coverImage').click()">
+                                    <i class="fas fa-upload fa-2x"></i>
+                                    <span> Replace File</span>
+                                </div>
+                            </div>
+                            <input type="file" class="form-control" id="coverImage" name="coverImage" style="display: none;" onchange="previewImage(event)">
                         </div>
 
                         <!-- Input Section -->
@@ -66,7 +73,8 @@
         </div>
     </div>
 </div>
-
+<script src="javascripts/adminEditEvent.js"></script>
+<!-- Include footer -->
 <?php include 'components/adminFooter.php'; ?>
 </body>
 </html>

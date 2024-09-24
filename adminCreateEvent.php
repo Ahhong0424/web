@@ -16,10 +16,13 @@
 <div class="modal fade show" id="createEventModal" tabindex="-1" aria-labelledby="createEventModalLabel" aria-hidden="true" style="display: block; background-color: rgba(0,0,0,0.5);">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
+            <!-- Modal Header -->
             <div class="modal-header">
                 <h5 class="modal-title" id="createEventModalLabel">Create Event</h5>
                 <button type="button" class="btn-close" onclick="window.location.href='adminEventManagement.php'"></button>
             </div>
+
+            <!-- Modal Body -->
             <div class="modal-body">
                 <form action="adminCreateEventAction.php" method="POST" enctype="multipart/form-data">
                     <div class="row">
@@ -27,11 +30,22 @@
                         <div class="col-md-4">
                             <h6>Media</h6>
                             <label for="coverImage" class="form-label">Cover Image</label>
-                            <input type="file" class="form-control" id="coverImage" name="coverImage">
+                            <div class="media-preview mb-3" id="imagePreview" ondragover="event.preventDefault();" ondrop="handleDrop(event)">
+                                <div class="image-container">
+                                    <img src="" alt="Preview Image" id="previewImg" style="display: none;">
+                                </div>
+                                <p id="placeholderText">Upload a file or drag and drop</p>
+                            </div>
+                            <input type="file" class="form-control" id="coverImage" name="coverImage" onchange="previewImage(event)">
+                        </div>
+
+                        <!-- Divider -->
+                        <div class="col-md-1 d-flex align-items-center justify-content-center">
+                            <div class="vertical-divider"></div>
                         </div>
 
                         <!-- Input Section -->
-                        <div class="col-md-8">
+                        <div class="col-md-7">
                             <h6>Event Details</h6>
                             <div class="mb-3">
                                 <label for="title" class="form-label">Title</label>
@@ -55,6 +69,8 @@
                             </div>
                         </div>
                     </div>
+
+                    <!-- Modal Footer -->
                     <div class="modal-footer">
                         <button type="button" class="btn btn-outline-secondary" onclick="window.location.href='adminEventManagement.php'">Cancel</button>
                         <button type="submit" class="btn btn-primary">Create Event</button>
@@ -64,8 +80,8 @@
         </div>
     </div>
 </div>
-
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+<script src="javascripts/adminCreateEvent.js"></script>
+<!-- Include footer -->
+<?php include 'components/adminFooter.php'; ?>
 </body>
 </html>

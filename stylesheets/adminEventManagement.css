@@ -5,13 +5,6 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Header styling */
-h2 {
-    font-size: 24px;
-    font-weight: bold;
-    color: #333;
-}
-
 /* Table styling */
 table {
     width: 100%;
@@ -70,24 +63,64 @@ img.img-thumbnail {
     background-color: #f0f0f0;
     color: #007bff;
 }
-
-/* Modal styles for Edit/Create Event */
-.modal-header {
-    border-bottom: none;
-}
-
-.modal-title {
-    font-weight: bold;
-    font-size: 18px;
-}
-
-.modal-body {
+/* Modal Styles */
+.modal-content {
+    border-radius: 8px;
     padding: 20px;
 }
 
-.modal-footer {
-    border-top: none;
-    padding-top: 20px;
+/* Vertical Divider */
+.vertical-divider {
+    width: 1px;
+    height: 100%;
+    background-color: #ccc;
+}
+
+/* Media Section Preview Image */
+.media-preview {
+    position: relative;
+    border: 2px dashed #ccc; /* Optional: Adds a dashed border for visual effect */
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9; /* Optional: Light background color */
+}
+
+.image-container {
+    width: 100%;
+    height: 200px; /* Set a fixed height; adjust as needed */
+    overflow: hidden; /* Hide overflow */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#previewImg {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover; /* Ensures the image covers the container while maintaining aspect ratio */
+}
+
+#placeholderText {
+    color: #6c757d;
+}
+
+/* Adjust media preview image size */
+#previewImg {
+    max-width: 100%;
+    max-height: 150px;
+}
+
+/* File input customization */
+.form-control[type="file"] {
+    padding: 6px;
+}
+
+/* Modal Header */
+.modal-header {
+    display: flex;
+    justify-content: space-between; /* Aligns items at start and end */
+    align-items: flex-start; /* Aligns items vertically at the start */
 }
 
 /* Input styles in modals */
@@ -97,6 +130,25 @@ textarea.form-control {
     border: 1px solid #ddd;
     padding: 10px;
     font-size: 14px;
+}
+
+.upload-icon {
+    display: flex;                  /* Use flexbox for alignment */
+    align-items: center;           /* Center items vertically */
+    cursor: pointer;               /* Pointer cursor on hover */
+    margin-top: 10px;             /* Space above the icon */
+}
+
+.upload-icon i {
+    font-size: 20px;               /* Set a consistent size for the icon */
+    margin-right: 5px;             /* Space between the icon and text */
+    color: #8E77F8 ;  
+    opacity: 0.8;              /* Change this color to your preferred theme color */
+}
+
+.upload-icon span {
+    font-size: 10px;               /* Match the font size of the text with the icon */
+    line-height: 1;                /* Ensure text is centered vertically with the icon */
 }
 
 /* Media (Image) section styles */
