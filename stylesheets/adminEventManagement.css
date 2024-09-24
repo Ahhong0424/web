@@ -63,6 +63,30 @@ img.img-thumbnail {
     background-color: #f0f0f0;
     color: #007bff;
 }
+
+/* Center image and text */
+.modal-body img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.modal-body h5 {
+    font-weight: bold;
+}
+
+.modal-body p {
+    font-size: 16px;
+    color: #6c757d;
+}
+
+/* Button Styles */
+.modal-footer .btn {
+    width: 150px;
+}
+
 /* Modal Styles */
 .modal-content {
     border-radius: 8px;

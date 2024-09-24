@@ -21,7 +21,6 @@
 
     <div class="flex-grow-1 main-content" style="padding: 20px; margin-left: 250px;">
         <div class="d-flex justify-content-between align-items-center p-3">
-            <!-- Back Button and Edit Profile in the same row -->
             <div class="d-flex align-items-center">
                 <a href="adminDashboard.php" style="font-size: 24px; text-decoration: none; margin-right: 10px;">&lt;</a>
                 <h2 style="font-weight: bold; margin: 0;">Edit Profile</h2>

@@ -53,7 +53,7 @@ body {
   }
   
   .dropdown-item {
-    color: #fff; /* Ensure dropdown items are white */
+    color: #282828; /* Ensure dropdown items are white */
   }
   
   .dropdown-item:hover {
